@@ -1112,67 +1112,20 @@ footer ul li a { /* all <a> links inside <li> list inside <ul> those bullet poin
   width: 45%;
 }
 
-/*Mobile update ( a simple one for now )*/
+/*Minor mobile update*/
 @media (max-width: 768px) {
-  .navbar {
-    padding: 0 1rem;
-    height: 56px;
-  }
-
-  .logo span {
-    display: none;
+  .nav-links {
+    display: flex;
+    flex-direction: row;  
+    gap: 14px;
+    font-size: 13px;
   }
 
   .hamburger {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    z-index: 1100;
+    display: none;
   }
 
-  .hero-text {
-    left: 6%;
-    right: 6%;
-    max-width: 100%;
+  .nav-links li {
+    white-space: nowrap;   
   }
-
-  .hero-text h1 {
-    font-size: 42px;
-    line-height: 1.1;
-  }
-
-  .hero-text p {
-    font-size: 15px;
-  }
-
-  .content-section,
-  .about-row,
-  .faq-panel-container,
-  .footer-wrapper {
-    flex-wrap: wrap;
-    gap: 24px;
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .games-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 14px;
-  }
-
-  .game-card {
-    height: auto;
-    padding: 24px 18px;
-  }
-
-  section {
-    padding: 48px 18px;
-  }
-
-  h1 { font-size: 1.6rem; }
-  h2 { font-size: 1.3rem; }
-  p  { font-size: 0.95rem; }
 }
