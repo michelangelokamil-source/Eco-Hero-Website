@@ -1111,21 +1111,3 @@ footer ul li a { /* all <a> links inside <li> list inside <ul> those bullet poin
 .sources div {
   width: 45%;
 }
-
-/*Minor mobile update*/
-@media (max-width: 768px) {
-  .nav-links {
-    display: flex;
-    flex-direction: row;  
-    gap: 14px;
-    font-size: 13px;
-  }
-
-  .hamburger {
-    display: none;
-  }
-
-  .nav-links li {
-    white-space: nowrap;   
-  }
-}
