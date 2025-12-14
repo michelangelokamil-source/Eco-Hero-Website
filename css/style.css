@@ -1120,34 +1120,37 @@ footer ul li a { /* all <a> links inside <li> list inside <ul> those bullet poin
   }
 
   .logo span {
-    display: none; 
+    display: none;
   }
 
   .hamburger {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    z-index: 1100;
   }
 
   .hero-text {
-    left: 5%;
-    right: 5%;
+    left: 6%;
+    right: 6%;
     max-width: 100%;
   }
 
   .hero-text h1 {
-    font-size: 44px;
+    font-size: 42px;
     line-height: 1.1;
   }
 
   .hero-text p {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .content-section,
-  .about-row {
-    flex-direction: column;
-    gap: 30px;
+  .about-row,
+  .faq-panel-container,
+  .footer-wrapper {
+    flex-wrap: wrap;
+    gap: 24px;
   }
 
   img {
@@ -1156,31 +1159,20 @@ footer ul li a { /* all <a> links inside <li> list inside <ul> those bullet poin
   }
 
   .games-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
   }
 
   .game-card {
     height: auto;
-    padding: 30px 20px;
+    padding: 24px 18px;
   }
 
-  .faq-panel-container {
-    flex-direction: column;
+  section {
+    padding: 48px 18px;
   }
 
-  .footer-wrapper {
-    flex-direction: column;
-    gap: 30px;
-  }
-}
-
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
-  }
-
-  .hamburger {
-    opacity: 0.6;
-    pointer-events: none; /*currently disabled*/
-  }
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.3rem; }
+  p  { font-size: 0.95rem; }
 }
