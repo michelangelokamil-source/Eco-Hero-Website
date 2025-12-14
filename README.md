@@ -1,3 +1,7 @@
+<p align="left">
+  <img src="Assets/icons/Icon.webp" alt="ClimateCore Logo" width="100">
+</p>
+
 # Be An Eco Hero!
 
 #### This project is made by the **ClimateCore** Team
@@ -7,7 +11,7 @@
 **Live Website** [https://climatecore.netlify.app/]
 **Website Status** [![Netlify Status](https://api.netlify.com/api/v1/badges/7d0d6bd4-1ed0-4da4-9564-0c7b5fcccd5c/deploy-status)])
 
-## 1. Project Overview :
+## 1. Gambaran Umum Proyek :
 **"Be An Eco Hero!"** adalah platform edukasi yang dikembangkan oleh tim **ClimateCore** untuk mengatasi kerendahan kesadaran terhadap isu perubahan iklim.
 Kami fokus mengajak para generasi muda untuk mengambil **Aksi Nyata** melalui pendekatan modern, menjadikan setiap pengunjung sebagai **Eco Hero** dalam upaya melestarikan lingkungan.
 
@@ -39,6 +43,11 @@ Untuk menjalankan proyek ini, *clone* repository ini, masuk ke direktori proyek,
 
 1.  **Clone Repo:** `git clone [https://github.com/michelangelokamil-source/Eco-Hero-Website.git]`
 2.  **Akses:** Buka `index.html`.
+
+## Catatan untuk versi Mobile :
+## Kami dari tim **ClimateCore** menyampaikan bahwa website ini saat ini dioptimalkan hanya untuk tampilan desktop.
+## Untuk pengembangan dukungan mobile telah direncanakan dan mulai dibuat, namun belum dapat diselesaikan sepenuhnya sebelum batas waktu yang ditentukan.
+## Untuk ke depannya, kami akan berkomitmen untuk terus mengembangkan website ini agar dapat mendukung pengalaman pengguna yang optimal di berbagai perangkat, termasuk di mobile.
 
 > **NOTICE DATA ASSET:** Data Asset disini bersifat non-copyright, Icon diambil dari *IconScout dan Icon8 dan sebagian dibuat oleh Designer tim kami*, Gambar diambil dari website gambar non-copyright seperti *Unsplash, Pexels, dan Pixabay!* dan gambar orang seperti *Greta Thunberg dan Ilyess El Korbi diambil dari WikiMedia Commons* dan digunakan untuk website edukasi.
 
