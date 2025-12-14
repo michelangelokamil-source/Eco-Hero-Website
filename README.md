@@ -44,8 +44,8 @@ Untuk menjalankan proyek ini, *clone* repository ini, masuk ke direktori proyek,
 1.  **Clone Repo:** `git clone [https://github.com/michelangelokamil-source/Eco-Hero-Website.git]`
 2.  **Akses:** Buka `index.html`.
 
-##Catatan untuk versi Mobile :
-**Kami dari tim **ClimateCore** menyampaikan bahwa website ini saat ini dioptimalkan hanya untuk tampilan desktop.**
+Catatan untuk versi Mobile :
+**Kami dari tim ClimateCore menyampaikan bahwa website ini saat ini dioptimalkan hanya untuk tampilan desktop.**
 **Untuk pengembangan dukungan mobile telah direncanakan dan mulai dibuat, namun belum dapat diselesaikan sepenuhnya sebelum batas waktu yang ditentukan.**
 **Untuk ke depannya, kami akan berkomitmen untuk terus mengembangkan website ini agar dapat mendukung pengalaman pengguna yang optimal di berbagai perangkat, termasuk di mobile**
 
