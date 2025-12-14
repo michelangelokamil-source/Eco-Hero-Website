@@ -287,9 +287,10 @@
 
       <form id="feedbackForm" action="https://formsubmit.co/climatecoreteam@gmail.com" method="POST" target="_blank">
            <input type="hidden" name="_next" value="https://climatecore.netlify.app/html/thanks.html"> <!--though root relative is easier but its also easier to fail than absolute URL which is the safest-->
-          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_captcha" value="true"> <!--enabled captcha to avoid spammer-->
 
           <input data-aos="fade-right" type="text" name="name" placeholder="Nama Anda" required>
+          <input type="email" name="email" placeholder="Email kamu" required>
           <textarea data-aos="fade-left" name="message" placeholder="Saran Anda" required></textarea>
           <button type="submit">Kirim</button>
       </form>
