@@ -605,7 +605,7 @@ body {
 .mini-games {
   min-height: 80vh;
   padding: 100px 80px;
-  background: #F0F7F0;
+  background:#F0F7F0;
 }
 
 .games-header {
@@ -660,41 +660,41 @@ body {
 }
 
 #quiz {
-  background-color: #2FEB71;
+  background-color: #a4cb49;
 }
 
 #quiz:hover {
-  background-color: #28D163;
+  background-color: #8aaf32;
   transform: translateY(-5px);
   box-shadow: 0 15px 40px rgba(74, 222, 128, 0.15);
 }
 
 #calculator {
-  background-color: #6FC7DE;
+  background-color:#ACC196;
 }
 
 #calculator:hover {
-  background-color: #62B0C4;
+  background-color:#677442;
   transform: translateY(-5px);
   box-shadow: 0 15px 40px rgba(74, 222, 128, 0.15);
 }
 
 #sorter {
-  background-color: #CCB335;
+  background-color:#84e9d4;
 }
 
 #sorter:hover {
-  background-color: #BAA330;
+  background-color:#59e1c5;
   transform: translateY(-5px);
   box-shadow: 0 15px 40px rgba(74, 222, 128, 0.15);
 }
 
 #ev {
-  background-color: #4D58DB;
+  background-color:#82c4cf;
 }
 
 #ev:hover {
-  background-color: #444EC2;
+  background-color:#5db3c1;
   transform: translateY(-5px);
   box-shadow: 0 15px 40px rgba(74, 222, 128, 0.15);
 }
@@ -702,14 +702,15 @@ body {
 .game-card h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
-  font-weight: 700;
-  color: black;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
   text-align: center;
   margin: 0;
 }
 
 .game-card p {
   font-size: 15px;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   color: black;
   text-align: center;
@@ -719,23 +720,23 @@ body {
 .quiz-btn {
   display: inline-block;
   padding: 14px 36px;
-  background: linear-gradient(135deg, #4ade80 0%, #22c55e 100%);
-  color: white;
+  background: #fff2d7;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
   border-radius: 50px;
   transition: all 0.3s ease;
-  box-shadow: 0 8px 20px rgba(74, 222, 128, 0.3);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
   letter-spacing: 0.5px;
 }
 
 .quiz-btn:hover {
   transform: translateY(-2px);
   transform: scale(1.05);
-  box-shadow: 0 0 20px rgba(0, 255, 150, 0.4);
-  background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+  box-shadow: 0 0 20px rgba(167, 167, 167, 0.5);
+  background: #fff7e6;
 }
 
 .quiz-btn:active {
