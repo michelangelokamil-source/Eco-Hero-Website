@@ -1,6 +1,6 @@
 let currentQuestion = 0;
 let score = 0;
-let selectedAnswer = null;
+let selectedAnswer = null; //its nothing, so basically when you started no choice has been made
 
 const quizData = [
   {
@@ -55,7 +55,8 @@ const totalQuestionsEl = document.getElementById('total-questions');
 const progressEl = document.getElementById('progress');
 const restartBtn = document.getElementById('restart-btn');
 
-totalQuestionsEl.textContent = quizData.length;
+//El is Element shortened! So don't get confused :)
+totalQuestionsEl.textContent = quizData.length; //sets the total number of questions ( 8 ) in the UI.
 
 function loadQuestion() {
   const current = quizData[currentQuestion];
@@ -69,7 +70,7 @@ function loadQuestion() {
     btn.className = 'option-btn';
     btn.textContent = option;
     btn.setAttribute('data-option', String.fromCharCode(65 + index));
-    btn.onclick = () => selectAnswer(index, btn);
+    btn.onclick = () => selectAnswer(index, btn); //listener if user has clicked the answer or not and the index,btn prevents multiple answer for the same question
     optionsEl.appendChild(btn);
   });
 
@@ -78,10 +79,10 @@ function loadQuestion() {
 }
 
 function selectAnswer(index, btn) {
-  if (selectedAnswer !== null) return;
+  if (selectedAnswer !== null) return; //prevents double clicking (selectedAnswer is strictly not nothing)
 
   selectedAnswer = index;
-  nextBtn.disabled = false;
+  nextBtn.disabled = false; //user can go to the next question
 
   const buttons = optionsEl.querySelectorAll('.option-btn');
   buttons.forEach(b => b.disabled = true);
@@ -96,7 +97,7 @@ function selectAnswer(index, btn) {
 }
 
 function updateProgress() {
-  const progress = ((currentQuestion + 1) / quizData.length) * 100;
+  const progress = ((currentQuestion + 1) / quizData.length) * 100; //calculates percentage of completed questions (currentquestion + 1 / totalquestions x 100)
   progressEl.style.width = progress + '%';
 }
 
@@ -122,11 +123,14 @@ function showResults() {
 }
 
 nextBtn.addEventListener('click', () => {
-  currentQuestion++;
+  currentQuestion++; //adds 1 to the current question index (position number).
   currentQuestion < quizData.length ? loadQuestion() : showResults();
 });
+//on top is to check if we are at the end ( currentQuestion < quizData.length )
+//if True the are more question to be displayed ( ? loadQuestion() )
+// if False the user ran out of questions and will be displayed the final score ( : showResults() )
 
-restartBtn.addEventListener('click', () => {
+restartBtn.addEventListener('click', () => { //what happens when you press restart button
   currentQuestion = 0;
   score = 0;
   selectedAnswer = null;
@@ -135,4 +139,4 @@ restartBtn.addEventListener('click', () => {
   loadQuestion();
 });
 
-loadQuestion();
+loadQuestion(); //starts the quiz for the first time when the page loads (crucial)
